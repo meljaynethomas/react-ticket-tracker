@@ -1,3 +1,10 @@
-.para {
-  color: green;
+h1 {
+  color: teal;
+  text-align: center;
+  margin: 20px;
+}
+
+.content {
+  max-width: 100vw;
+  display: flex;
 }

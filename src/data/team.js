@@ -1,53 +1,53 @@
 const team = [
   {
-    id: 1,
-    name: "Alima Miller",
-    role: "Junior Software Developer"
+    "idEmployee": "1",
+    "strName": "Alima Miller",
+    "strRole": "Junior Software Developer"
   },
   {
-    id: 2,
-    name: "Evelyn Rodgers",
-    role: "Junior Software Developer"
+    "idEmployee": "2",
+    "strName": "Evelyn Rodgers",
+    "strRole": "Junior Software Developer"
   },
   {
-    id: 3,
-    name: "Henley Myers",
-    role: "Junior Software Developer"
+    "idEmployee": "3",
+    "strName": "Henley Myers",
+    "strRole": "Junior Software Developer"
   },
   {
-    id: 4,
-    name: "Celyn Sanders",
-    role: "Software Developer"
+    "idEmployee": "4",
+    "strName": "Celyn Sanders",
+    "strRole": "Software Developer"
   },
   {
-    id: 5,
-    name: "Effie Mohamed",
-    role: "Software Developer"
+    "idEmployee": "5",
+    "strName": "Effie Mohamed",
+    "strRole": "Software Developer"
   },
   {
-    id: 6,
-    name: "Karam Lees",
-    role: "Senior Software Developer"
+    "idEmployee": "6",
+    "strName": "Karam Lees",
+    "strRole": "Senior Software Developer"
   },
   {
-    id: 7,
-    name: "Eleanor Dowling",
-    role: "Project Manager"
+    "idEmployee": "7",
+    "strName": "Eleanor Dowling",
+    "strRole": "Project Manager"
   },
   {
-    id: 8,
-    name: "Haris Grey",
-    role: "Tester"
+    "idEmployee": "8",
+    "strName": "Haris Grey",
+    "strRole": "Tester"
   },
   {
-    id: 9,
-    name: "Sohaib Farley",
-    role: "Tester"
+    "idEmployee": "9",
+    "strName": "Sohaib Farley",
+    "strRole": "Tester"
   },
   {
-    id: 10,
-    name: "Phillip Mitchell",
-    role: "Hard Man"
+    "idEmployee": "10",
+    "strName": "Phillip Mitchell",
+    "strRole": "Hard Man"
   },
 ]
 export default team;
