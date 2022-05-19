@@ -3,3 +3,8 @@
 .employeeInfo {
   @extend %card;
 }
+
+.counter {
+  @extend %card;
+  display: flex;
+}

@@ -1,7 +1,0 @@
-@import '../../variables.scss';
-
-.counter {
-  @extend %card;
-  display: flex;
-  flex-direction: column;
-}
