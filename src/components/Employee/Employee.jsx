@@ -12,11 +12,13 @@ const Employee = (props) => {
     <section className={styles.employeeInfo}>
       <h2>{strName}</h2>
       <h3>{strRole}</h3>
-      <h1>Tickets</h1>
-        <div className={styles.counter}>
-          <button onClick={() => setCount(count - 1)}>-</button>
-          <p>{count}</p>
-          <button onClick={() => setCount(count + 1)}>+</button>
+        <div className={styles.tickets}>
+          <h1 className={styles.ticketHeading}>Tickets</h1>
+            <div>
+              <button onClick={() => setCount(count - 1)}>-</button>
+              <span className={styles.counter}>{count}</span>
+              <button onClick={() => setCount(count + 1)}>+</button>
+            </div>
         </div>
     </section>
     </>

@@ -2,9 +2,45 @@
 
 .employeeInfo {
   @extend %card;
+  text-align: center;
+  color: $accent-color;
+  padding-top: 10px;
+  background-color: $tertiary-color;
+
+  h3 {
+    color: $secondary-color;
+  }
+}
+
+.tickets {
+  @extend %card;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+
+  .ticketHeading {
+    margin: 10px;
+    font-size: 1.5rem;
+    color: $accent-color;
+  }
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  background-color: $button-color;
+  border-radius: 5px;
+  border: solid 1px $accent-color;
+  color: $accent-color;
+
 }
 
 .counter {
-  @extend %card;
-  display: flex;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
 }
+

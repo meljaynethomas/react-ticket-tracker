@@ -1,11 +1,24 @@
+
+
+$primary-color: #4D9078;
+$secondary-color: #FF5A5F;
+$tertiary-color: #EEF0F2;
+$accent-color: #69585F;
+$button-color: #E4F1EC;
+
+
+$NavBar-height-mb: 60px;
+$NavBar-height: 75px;
+$base-spacing: 5px;
+
 %card {
   max-height: 400px;
   min-width: 275px;
   margin-bottom: 10px;
   border-radius: 5px;
-  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
-  border: solid 2px rgb(70, 50, 111);
+  box-shadow: 0 4px 7px rgba(105, 88, 95, 0.2), 0 4px 7px rgba(105, 88, 95, 0.27);
+  border: solid 2px $accent-color;
   backface-visibility: hidden;
-  background-color: white;
+  background-color: $tertiary-color;
   margin: 20px;
 }
