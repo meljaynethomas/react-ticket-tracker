@@ -1,5 +1,6 @@
 {
   "name": "react-ticket-tracker",
+  "homepage": "https://meljaynethomas.github.io/react-ticket-tracker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
